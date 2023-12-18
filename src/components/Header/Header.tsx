@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container">
         <a href='#'><img src={logo} alt="Manage" /></a>
         <nav className='header__nav'>
-          <ul role='list' className='header__nav-list'>
+          <ul aria-label="Primary" role='list' className='header__nav-list'>
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Product</a></li>
             <li><a href="#">About</a></li>
