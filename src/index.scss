@@ -1,9 +1,9 @@
-// Font
+// font
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 
-// Variable
+// variable
 :root {
-  // Color
+  // color
   --color-primary-400: hsl(228, 39%, 23%);
 
   --color-accent-500: hsl(12, 60%, 45%);
@@ -14,22 +14,22 @@
   --color-neutral-900: hsl(232, 12%, 13%);
   --color-neutral-100: hsl(0, 0%, 100%);
 
-  --color-background: ;
-  --color-text: ;
-  --color-link: ;
-  --color-hover: ;
-  --color-border: ;
-  --color-error: ;
-  --color-success: ;
-  --color-warning: ;
-  --color-info: ;
+  // --color-background: ;
+  // --color-text: ;
+  // --color-link: ;
+  // --color-hover: ;
+  // --color-border: ;
+  // --color-error: ;
+  // --color-success: ;
+  // --color-warning: ;
+  // --color-info: ;
 
-  // Font
+  // font
   --font-family-primary: 'Be Vietnam Pro',
     sans-serif;
 
   --font-family-body: var(--font-family-primary);
-  --font-family--heading: var(--font-family-primary);
+  --font-family-heading: var(--font-family-primary);
 
   --font-weight-light: ;
   --font-weight-regular: 400;
@@ -50,7 +50,7 @@
   --font-size-nav: var(--font-size-500);
   --font-size-button: var(--font-size-300);
 
-  // Size
+  // size
   --size-100: 0.25rem;
   --size-200: 0.5rem;
   --size-300: 0.75rem;
@@ -71,35 +71,35 @@
   }
 }
 
-// CSS reset
+// css reset
 // https://piccalil.li/blog/a-modern-css-reset
 
-/* Box sizing rules */
+/* box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* Remove default margin */
+/* remove default margin */
 * {
   margin: 0;
   padding: 0;
   font: inherit;
 }
 
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+/* remove list styles on ul, ol elements */
+ul,
+ol {
   list-style: none;
 }
 
-/* Set core root defaults */
+/* set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
 }
 
-/* Set core body defaults */
+/* set core body defaults */
 html,
 body {
   height: 100%;
@@ -110,12 +110,12 @@ body {
   line-height: 1.5;
 }
 
-/* A elements that don't have a class get default styles */
+/* a elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/* Make images easier to work with */
+/* make images easier to work with */
 img,
 picture,
 svg {
@@ -123,7 +123,7 @@ svg {
   display: block;
 }
 
-/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+/* remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;
@@ -139,9 +139,9 @@ svg {
   }
 }
 
-// Utility classes
+// utility classes
 
-// Color
+// color
 .text-primary-400 {
   color: var(--color-primary-400);
 }
@@ -182,7 +182,7 @@ svg {
   background-color: var(--color-neutral-900);
 }
 
-// Font
+// font
 .font-weight-bold {
   font-weight: var(--font-weight-bold);
 }
@@ -221,7 +221,7 @@ svg {
   font-size: var(--font-size-600);
 }
 
-// Padding
+// padding
 .padding-block-900 {
   padding-block: var(--size-900);
 }
@@ -230,7 +230,7 @@ svg {
   padding-block: var(--size-700);
 }
 
-// General
+// general
 .container {
   --max-width: 1110px;
   --padding: 1rem;
@@ -244,7 +244,7 @@ svg {
   gap: 1rem;
 }
 
-// Button
+// button
 .button {
   cursor: pointer;
   text-decoration: none;
@@ -282,7 +282,7 @@ svg {
   }
 }
 
-// General styling
+// general styling
 
 body {
   font-size: var(--font-size-body);

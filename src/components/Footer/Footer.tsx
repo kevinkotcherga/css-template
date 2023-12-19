@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div>
             <nav className="footer__nav">
-              <ul aria-label="Footer" role="list">
+              <ul role="navigation" aria-label="Footer" >
                 <li><a href="">Home</a></li>
                 <li><a href="">Pricing</a></li>
                 <li><a href="">Products</a></li>
