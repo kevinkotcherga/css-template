@@ -1,6 +1,6 @@
 const Introduction = () => {
   return (
-    <section>
+    <section className="padding-block-900">
       <div className="container">
         <div className="even-columns">
           <div>

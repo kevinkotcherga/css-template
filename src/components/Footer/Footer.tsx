@@ -2,7 +2,7 @@ import logo from '../../assets/logo.svg';
 
 const Footer = () => {
   return (
-    <footer className="background-neutral-900 text-neutral-100">
+    <footer className="background-neutral-900 text-neutral-100 padding-block-700">
       <div className="cotainer">
         <div className="even-columns">
           <div>

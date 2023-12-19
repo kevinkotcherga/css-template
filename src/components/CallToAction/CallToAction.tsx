@@ -1,6 +1,6 @@
 const CallToAction = () => {
   return (
-    <section className="call-to-action | background-primary-400 text-neutral-100">
+    <section className="call-to-action | background-accent-400 text-neutral-100 padding-block-700">
       <div className="container">
         <div className="even-columns">
           <div>
