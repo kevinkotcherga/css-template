@@ -1,0 +1,40 @@
+.header {
+  margin-top: var(--size-700);
+
+  &__navigation {
+    &.opened {
+      display: block;
+      position: fixed;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__mobile-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 50em) {
+  .header {
+    &__navigation {
+      display: none;
+    }
+
+    &__mobile-toggle {
+      display: block;
+      cursor: pointer;
+      background: transparent;
+      border: 0;
+      padding: 0.5em;
+    }
+
+    &__icon-close {
+      display: none;
+    }
+  }
+}
