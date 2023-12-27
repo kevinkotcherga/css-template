@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="header">
+    <header className={`header ${isNavigationOpened ? 'opened' : ''}`}>
       <div className="container">
         <div className="header__wrapper">
           <a href='#'><img src={logo} alt="Manage" /></a>
