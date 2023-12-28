@@ -139,20 +139,6 @@ svg {
   }
 }
 
-// utility classes
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
 // color
 .text-primary-400 {
   color: var(--color-primary-400);
@@ -258,6 +244,7 @@ svg {
 
 // button
 .button {
+  display: inline-flex;
   cursor: pointer;
   text-decoration: none;
   border: 0;
@@ -300,6 +287,30 @@ body {
   font-size: var(--font-size-body);
   font-family: var(--font-family-body);
   color: var(--color-primary-400);
+}
+
+// utility classes
+
+.display-small-none {
+  display: none;
+}
+
+@media (min-width: 50em) {
+  .display-medium-inline-flex {
+    display: inline-flex;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 @import './components/Header/Header.scss';

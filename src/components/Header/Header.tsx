@@ -22,7 +22,7 @@ const Header = () => {
             <span className='visually-hidden'>Menu</span>
           </button>
           <Navigation isOpened={isNavigationOpened} />
-          <button className="button" style={{ display: "none" }}>Get Started</button>
+          <button className="button | display-small-none display-medium-inline-flex" >Get Started</button>
         </div>
       </div>
     </header>
