@@ -228,20 +228,6 @@ svg {
   padding-block: var(--size-700);
 }
 
-// general
-.container {
-  --max-width: 1110px;
-  --padding: 1rem;
-
-  width: min(var(--max-width), 100% - (var(--padding)) * 2);
-  margin-inline: auto;
-}
-
-.even-columns {
-  display: grid;
-  gap: 1rem;
-}
-
 // button
 .button {
   display: inline-flex;
@@ -311,6 +297,24 @@ body {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+// general
+.container {
+  --max-width: 1110px;
+  --padding: 1rem;
+
+  width: min(var(--max-width), 100% - (var(--padding)) * 2);
+  margin-inline: auto;
+}
+
+.flow {
+  outline: 3px solid lime;
+}
+
+.even-columns {
+  display: grid;
+  gap: 1rem;
 }
 
 @import './components/Header/Header.scss';
